@@ -29,6 +29,14 @@ def kind
     :scalene
   end
 end
+
+def validate_triangle
+end
+
+
+
+
+
 end
 
 class TriangleError < StandardError
