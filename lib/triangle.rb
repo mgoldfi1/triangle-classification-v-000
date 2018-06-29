@@ -25,10 +25,9 @@ def kind
   elsif  self.length_2 == self.length_3 && self.length_2 != self.length_1
     :isosceles
   end
-
-  
-
 end
+end
+
 class TriangleError < StandardError
     def message
       puts "Invalid Triangle."
