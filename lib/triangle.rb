@@ -26,9 +26,10 @@ def kind
     :isosceles
   end
 
-  class TriangleError < StandardError
-      def message
-        puts "Invalid Triangle."
-    end
+  
 
 end
+class TriangleError < StandardError
+    def message
+      puts "Invalid Triangle."
+  end
