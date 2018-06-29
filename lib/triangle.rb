@@ -23,7 +23,7 @@ def kind
     end
   elsif self.length_1 == self.length_2 && self.length_2 == self.length_3
     :equilateral
-  elsif  self.length_1 != self.length_2  && self.length_2 != self.length_3
+  elsif  self.length_1 != self.length_2  && self.length_2 != self.length_3 && self.length_1 != self.length_3
     :scalene
   elsif self.length_1 == self.length_2 && self.length_2 != self.length_3
     :isosceles
